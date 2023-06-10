@@ -1,0 +1,6 @@
+FROM postgres:14.5-bullseye
+
+ENV POSTGRES_USER postgres
+ENV POSTGRES_PASSWORD postgres
+
+EXPOSE 5432
